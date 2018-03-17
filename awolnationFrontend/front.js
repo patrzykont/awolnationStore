@@ -32,7 +32,7 @@ module.exports = {
 				renderHTML('./tour.html', response);
 				break;
 			case '/merchandise':
-				renderHTML('./shoppingCart./shopping-cart./bin./www');
+				renderHTML('./shoppingCart./shopping-cart./bin/www');
 				break;
 			default:
 				response.writeeHead(404);
@@ -41,3 +41,4 @@ module.exports = {
 		}
 	}
 };
+/*tired connecting the store with the frontend using fs, but could not get this to work

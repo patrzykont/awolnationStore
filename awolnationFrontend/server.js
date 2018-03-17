@@ -1,4 +1,4 @@
 var http = require('http');
-var front = require('./front');
+var app = require('./app');
 
-http.createServer(front.handleRequest).listen(8000);
+http.createServer(app.handleRequest).listen(8000);
