@@ -1,0 +1,55 @@
+#body {
+  margin: 0;
+  padding-top: 430px;
+  background: url('https://images6.alphacoders.com/627/627860.jpg') center;
+}
+#header{
+	padding-top: 100px;
+  height: 330px;
+  width: 100%;
+  background: url('http://awolnationmusic.com/images/logo.png') right;
+  background-margin-top: 0px;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar,
+#main {
+  position: relative;
+}
+
+.set  {
+  background-color: #FAFAD2;
+  border: none;
+  color: orange;
+  padding: 3px 3px;
+  text-align: center;
+  font-size: 16px;
+  margin: 3px 3px;
+  opacity: 0.75;
+  border-radius: 15px;
+}
+
+h1 	{
+	color: orange;
+  text-align: left;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+h2 {
+  color: orange;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+p {
+  font-weight: bolder;
+}
+
+.nav  {
+  font-weight: bolder;
+}
